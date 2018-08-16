@@ -1,7 +1,7 @@
 body{
 	font-family:'Open Sans',serif;
 	padding-top:54px;
-	color:#868e96
+	color:#000000
 	}@media (min-width:992px)
 	{body{padding-top:0;
 	
@@ -133,9 +133,9 @@ body{
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 100s;
   animation-name: fade;
-  animation-duration: 10s;
+  animation-duration: 100s;
 }
 
 @-webkit-keyframes fade {
