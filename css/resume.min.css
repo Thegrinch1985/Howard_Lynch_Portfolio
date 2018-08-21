@@ -94,7 +94,7 @@ body{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color:#cc3300;
+  background-color:#004d80;
 }
 
 /* Caption text */
