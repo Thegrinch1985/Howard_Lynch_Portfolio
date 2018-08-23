@@ -917,19 +917,21 @@ I gained much knowledge while at VHI after being shown many new technologies and
 	          <h2 class="mb-5"> <i class="far fa-envelope"></i>  Contact</h2>
 									<form action="https://formspree.io/howielynch@gmail.com" method="POST" enctype="text/plain">
 										<div class="form-group">
-											<input type="text" class="form-control" name="name" placeholder="Name" required>
+											<input type="text" class="form-control" name="Name" placeholder="Name" required>
 										</div>
 										<div class="form-group">
-											<input type="text" class="form-control" name="email" placeholder="Email">
+											<input type="text" class="form-control" name="_replyto" placeholder="Email">
 										</div>
 										<div class="form-group">
-											<input type="text" class="form-control" name="name" placeholder="Subject">
+											<input type="text" class="form-control" name="message" placeholder="Subject">
 										</div>
 										<div class="form-group">
 											<textarea name="message" id="_subject" cols="30" rows="7" class="form-control" placeholder="Message" maxlength="500"></textarea>
 										</div>
 										<div class="form-group">
 											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+											<input type="hidden" name="_subject" value="Enter your subject here">
+											<input type="hidden" name="_next" value="thanks.html">
 											
 										</div>
 									</form>
